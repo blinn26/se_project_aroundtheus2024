@@ -8,11 +8,6 @@
   height: 361px;
 }
 
-.cards {
-  padding-top: 30.25px;
-
-}
-
 .card__image {
   width: 282px;
   height: 282px;
@@ -57,13 +52,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-
-.cards__list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
-  padding: 0;
 }
