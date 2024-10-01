@@ -48,3 +48,17 @@
   background-position: center;
   margin-right: 24px;
 }
+
+@media screen and (max-width: 480px) {
+  .profile {
+    background-color: pink;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
